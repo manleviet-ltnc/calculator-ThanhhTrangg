@@ -18,7 +18,7 @@ namespace calculator
         }
 
         bool isTyingNumber = false;
-        enum PhepToan { Cong, Tru, Nhan, Chia };
+        enum PhepToan { None,Cong, Tru, Nhan, Chia };
         PhepToan pheptoan;
         double nho = 0.0;
         private void NhapSo(object sender, EventArgs e)
@@ -38,7 +38,9 @@ namespace calculator
         }
         private void NhapPhepToan(object sender, EventArgs e)
         {
-            TinhKetQua();
+            if (nho != 0)
+                TinhKetQua();
+
             Button btn = (Button)sender;
             switch (btn.Text)
             {
@@ -47,8 +49,18 @@ namespace calculator
                 case "*": pheptoan = PhepToan.Nhan; break;
                 case "/": pheptoan = PhepToan.Chia; break;
             }
+
             nho = double.Parse(lblDisplay.Text);
+
             isTyingNumber = false;
+        }
+
+        private void btnBang_Click(object sender, EventArgs e)
+        {
+            TinhKetQua();
+            isTyingNumber = false;
+            nho = 0;
+            pheptoan = PhepToan.None;
         }
         private void TinhKetQua()
         {
@@ -64,13 +76,6 @@ namespace calculator
             }
             //Gan ket qua tinh duoc len lblDisplay
             lblDisplay.Text = ketqua.ToString();
-        }
-
-        private void btnBang_Click(object sender, EventArgs e)
-        {
-            TinhKetQua();
-            isTyingNumber = false;
-
         }
 
         private void frmMain_KeyPress(object sender, KeyPressEventArgs e)
@@ -92,4 +97,5 @@ namespace calculator
             }
         }
     }
+
 }

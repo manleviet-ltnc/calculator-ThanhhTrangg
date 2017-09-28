@@ -8,3 +8,13 @@ C:\Users\Au Zu\Documents\calculator-ThanhhTrangg\calculator\calculator\obj\Debug
 C:\Users\Au Zu\Documents\calculator-ThanhhTrangg\calculator\calculator\obj\Debug\calculator.csproj.CoreCompileInputs.cache
 C:\Users\Au Zu\Documents\calculator-ThanhhTrangg\calculator\calculator\obj\Debug\calculator.exe
 C:\Users\Au Zu\Documents\calculator-ThanhhTrangg\calculator\calculator\obj\Debug\calculator.pdb
+C:\Users\thuchanh\Documents\GitHub\calculator-ThanhhTrangg\calculator\calculator\bin\Debug\calculator.exe.config
+C:\Users\thuchanh\Documents\GitHub\calculator-ThanhhTrangg\calculator\calculator\bin\Debug\calculator.exe
+C:\Users\thuchanh\Documents\GitHub\calculator-ThanhhTrangg\calculator\calculator\bin\Debug\calculator.pdb
+C:\Users\thuchanh\Documents\GitHub\calculator-ThanhhTrangg\calculator\calculator\obj\Debug\calculator.csprojResolveAssemblyReference.cache
+C:\Users\thuchanh\Documents\GitHub\calculator-ThanhhTrangg\calculator\calculator\obj\Debug\calculator.frmMain.resources
+C:\Users\thuchanh\Documents\GitHub\calculator-ThanhhTrangg\calculator\calculator\obj\Debug\calculator.Properties.Resources.resources
+C:\Users\thuchanh\Documents\GitHub\calculator-ThanhhTrangg\calculator\calculator\obj\Debug\calculator.csproj.GenerateResource.Cache
+C:\Users\thuchanh\Documents\GitHub\calculator-ThanhhTrangg\calculator\calculator\obj\Debug\calculator.csproj.CoreCompileInputs.cache
+C:\Users\thuchanh\Documents\GitHub\calculator-ThanhhTrangg\calculator\calculator\obj\Debug\calculator.exe
+C:\Users\thuchanh\Documents\GitHub\calculator-ThanhhTrangg\calculator\calculator\obj\Debug\calculator.pdb

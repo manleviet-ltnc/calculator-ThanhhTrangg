@@ -142,6 +142,21 @@ namespace calculator
             if (lblDisplay.Text != "")
                 lblDisplay.Text = (lblDisplay.Text).Substring(0, lblDisplay.Text.Length - 1);
         }
+
+        private void btnThapPhan_Click(object sender, EventArgs e)
+        {
+            if (lblDisplay.Text.Contains("."))
+            {
+                if (lblDisplay.Text == "0.")
+                {
+                    lblDisplay.Text = "";
+                    NhapSo("0.");
+                }
+                return;
+            }
+            lblDisplay.Text = lblDisplay.Text + ".";
+            
+        }
     }
 
 }

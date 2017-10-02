@@ -139,8 +139,10 @@ namespace calculator
 
         private void btnXoa_Click(object sender, EventArgs e)
         {
-            if (lblDisplay.Text != "")
-                lblDisplay.Text = (lblDisplay.Text).Substring(0, lblDisplay.Text.Length - 1);
+            if (lblDisplay.Text.Length > 0)
+                lblDisplay.Text = lblDisplay.Text.Remove(lblDisplay.Text.Length - 1);
+            if (lblDisplay.Text == "")
+                lblDisplay.Text = "0.";
         }
 
         private void btnThapPhan_Click(object sender, EventArgs e)

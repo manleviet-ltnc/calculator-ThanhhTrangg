@@ -29,7 +29,12 @@ namespace calculator
         private void NhapSo(string so)
         {
             if (isTyingNumber)
+            {
+               
+                if (lblDisplay.Text == "0")
+                    lblDisplay.Text = "";
                 lblDisplay.Text = lblDisplay.Text + so;
+            }
             else
             {
                 lblDisplay.Text = so;
